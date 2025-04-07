@@ -1,4 +1,5 @@
-## What is OOP? 
+## What is OOP?
+
 - Object-Oriented Programming (OOP) is a programming paradigm based on the concept of “objects”, which can contain:
 
 - Data in the form of fields (also called attributes or properties)
@@ -7,7 +8,8 @@
 
 - C++ is both a procedural and object-oriented language — perfect for transitioning into OOP.
 
-## Goals of OOP 
+## Goals of OOP
+
 - Modularity: Break program into smaller chunks
 - Reusability: Write once, use many times
 
@@ -19,7 +21,8 @@
 
 - Encapsulation: Wrap data and behavior into one unit (class)
 
-Four Pillars of OOP 
+Four Pillars of OOP
+
 - Encapsulation: Bundling data and functions that operate on the data.
 
 - Abstraction: Hiding complex implementation details.
@@ -30,15 +33,14 @@ Four Pillars of OOP
 
 ## Basic OOP Terms
 
-| Term        | Description                            |
-|-------------|----------------------------------------|
-| **Class**   | Blueprint for creating objects         |
-| **Object**  | Instance of a class                    |
-| **Attribute** | Data inside a class (a.k.a. data member) |
-| **Method**  | Function inside a class                |
-| **Constructor** | Special method to initialize an object |
-| **Destructor**  | Cleans up when object goes out of scope |
-
+| Term            | Description                              |
+| --------------- | ---------------------------------------- |
+| **Class**       | Blueprint for creating objects           |
+| **Object**      | Instance of a class                      |
+| **Attribute**   | Data inside a class (a.k.a. data member) |
+| **Method**      | Function inside a class                  |
+| **Constructor** | Special method to initialize an object   |
+| **Destructor**  | Cleans up when object goes out of scope  |
 
 ## Why OOP over Procedural Programming?
 
@@ -50,10 +52,12 @@ void accelerate() {
     speed += 10;
 }
 ```
+
 - This exposes speed to outside code, which can be modified recklessly.
-There are no rules or restrictions — anyone can change it anytime.
+  There are no rules or restrictions — anyone can change it anytime.
 
 ## OOP Encapsulation Example:
+
 ```
 class Car {
 private:
@@ -70,11 +74,12 @@ public:
 Here, speed is protected and can only be modified via class methods —
 this is encapsulation, one of the core principles of OOP.
 
-
 ## Real-World Analogy
+
 Class = Blueprint of a House \
 Object = Actual house built from that blueprint \
 Each house has:\
+
 - Properties: color, rooms
 - Actions: openDoor(), lockDoor()
 
@@ -82,8 +87,8 @@ Each house has:\
 
 - A class is a blueprint or template for creating objects. It defines:
 
-    - Attributes (data members)
-    - Behaviors (member functions/methods)
+  - Attributes (data members)
+  - Behaviors (member functions/methods)
 
 - An object is an instance of a class. It occupies memory and can access the attributes and behaviors defined in the class.
 
@@ -91,10 +96,10 @@ Each house has:\
 
 ## 🔐 Access Specifiers in C++
 
-| Specifier   | Description                             |
-|-------------|-----------------------------------------|
-| `public`    | Accessible from anywhere                |
-| `private`   | Accessible only within the class        |
+| Specifier   | Description                                 |
+| ----------- | ------------------------------------------- |
+| `public`    | Accessible from anywhere                    |
+| `private`   | Accessible only within the class            |
 | `protected` | Accessible in the class and derived classes |
 
 ```
@@ -108,13 +113,16 @@ public:
     }
 };
 ```
+
 ## Constructors and Destructors
-- Constructor: 
-    - Special function with the same name as the class
-    - Automatically called when an object is created
-    - Used to initialize data members
+
+- Constructor:
+  - Special function with the same name as the class
+  - Automatically called when an object is created
+  - Used to initialize data members
 
 <b> Types of Constructors: </b>
+
 - Default Constructor
 - Parameterized Constructor
 - Copy Constructor
