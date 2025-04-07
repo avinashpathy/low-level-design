@@ -80,4 +80,41 @@ Each house has:\
 
 ## Classes and Objects
 
+- A class is a blueprint or template for creating objects. It defines:
 
+    - Attributes (data members)
+    - Behaviors (member functions/methods)
+
+- An object is an instance of a class. It occupies memory and can access the attributes and behaviors defined in the class.
+
+## Access Specifier
+
+## 🔐 Access Specifiers in C++
+
+| Specifier   | Description                             |
+|-------------|-----------------------------------------|
+| `public`    | Accessible from anywhere                |
+| `private`   | Accessible only within the class        |
+| `protected` | Accessible in the class and derived classes |
+
+```
+class Sample {
+private:
+    int secret = 42;
+
+public:
+    int getSecret() {
+        return secret;
+    }
+};
+```
+## Constructors and Destructors
+- Constructor: 
+    - Special function with the same name as the class
+    - Automatically called when an object is created
+    - Used to initialize data members
+
+<b> Types of Constructors: </b>
+- Default Constructor
+- Parameterized Constructor
+- Copy Constructor
