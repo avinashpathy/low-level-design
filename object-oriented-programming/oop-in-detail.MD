@@ -542,3 +542,9 @@ int main() {
 }
 ```
 
+## Static Members in C++
+
+- In C++, class members can be declared as static. These members belong to the class itself rather than to any specific object of the class.
+
+
+
