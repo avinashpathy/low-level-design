@@ -547,4 +547,14 @@ int main() {
 - In C++, class members can be declared as static. These members belong to the class itself rather than to any specific object of the class.
 
 
+### Types of Static Members
+Static Data Members:
 
+- Shared among all objects of the class.
+- Only one copy exists, regardless of the number of objects.
+- Declared using the static keyword inside the class.
+
+Static Member Functions:
+
+- Can access only static data members or other static member functions.
+- Invoked using the class name or object, but their scope is tied to the class.
